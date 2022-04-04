@@ -12,7 +12,7 @@
     <a href="https://t.me/kazusupport"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
-<h1 align="center"> Kzu ᴜsᴇʀʙᴏᴛ <h1 align="center">
+<h1 align="center"> Kzu U-Bot <h1 align="center">
 
 
 <p align="center">
