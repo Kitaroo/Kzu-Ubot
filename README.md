@@ -9,14 +9,14 @@
 </p>
 <p align="center">
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
-    <a href="https://t.me/rexaprivateroom"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
+    <a href="https://t.me/kazusupport"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
-<h1 align="center"> xᴀ ᴜsᴇʀʙᴏᴛ <h1 align="center">
+<h1 align="center"> Kzu ᴜsᴇʀʙᴏᴛ <h1 align="center">
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/3abf6f0c2ad0a9023e796.jpg">
+  <img src="https://telegra.ph/file/f5b3f26cc258aa2b86798.jpg">
 </p>
     
 ### ATTETION 📢
