@@ -18,7 +18,7 @@ import sys
 import time
 from datetime import datetime
 import psutil
-from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, XA_TEKS_KUSTOM, StartTime, UPSTREAM_REPO_BRANCH, bot, CMD_HANDLER as cmd
+from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HANDLER as cmd, CMD_HELP, StartTime, UPSTREAM_REPO_BRANCH, bot
 from userbot.utils import Xa_cmd
 
 
