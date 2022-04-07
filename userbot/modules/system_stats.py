@@ -164,8 +164,8 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⌬-**🦖Xa-Userbot🦖 Versi:** \n "
-            f"heads/Xa-Userbot-0-x634i7u1"
+            "**⌬-**🐣Kzu-Ubot🐣 Versi:** \n "
+            f"heads/Kzu-Ubot-0-x634i7u1"
             "\n**⌬-**Revisi:**\n "
             f"{revout}"
         )
@@ -175,7 +175,7 @@ async def bot_ver(event):
         )
 
 
-@Xa_cmd(pattern="pip(?: |$)(.*)")
+@Kzu_cmd(pattern="pip(?: |$)(.*)")
 async def pipcheck(pip):
     if pip.text[0].isalpha() or pip.text[0] in ("/", "#", "@", "!"):
         return
@@ -223,20 +223,20 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@Xa_cmd(pattern="(?:xaalive)\\s?(.)?")
+@Kzu_cmd(pattern="(?:xaalive)\\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
         f" **⌬ɪᴍ ᴀʟɪᴠᴇ ғᴏʀ ʜᴇʟᴘɪɴɢ ʏᴏᴜ⌬** \n\n"
-        f"\n__**{XA_TEKS_KUSTOM}**__\n\n\n"
+        f"\n__**{Kzu_TEKS_KUSTOM}**__\n\n\n"
         f"⌬ `Name       :` {DEFAULTUSER} \n"
         f"⌬ `Username   :` @{user.username} \n"
         f"⌬ `Telethon   :` {version.__version__} \n"
         f"⌬ `Python     :` {python_version()} \n"
         f"⌬ `Bot Ver    :` {BOT_VER} \n"
         f"⌬ `Modules    :` {len(modules)} \n"
-        f"[ɢʀᴏᴜᴘꜱ](https://t.me/rexaprivateroom) | [ᴄʜᴀɴɴᴇʟ](https://t.me/tirexgugel) | [ᴏᴡɴᴇʀ](https://t.me/JustRex) | [ɢɪᴛʜᴜʙ](https://github.com/Rexashh/Xa-Userbot)")
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/kazusupport) | [ᴄʜᴀɴɴᴇʟ](https://t.me/my_nottes) | [ᴏᴡɴᴇʀ](https://t.me/kazuinhere) | [ɢɪᴛʜᴜʙ](https://github.com/zokazu/Kzu-Ubot)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -257,12 +257,12 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@Xa_cmd(pattern="(?:xaon)\\s?(.)?")
+@Kzu_cmd(pattern="(?:xaon)\\s?(.)?")
 async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"⌬ 🤴 ▫ `ᴏᴡɴᴇʀ     :`[ʀᴇxᴀ](t.me/JustRex) \n"
+        f"⌬ 🤴 ▫ `ᴏᴡɴᴇʀ     :`[ᴋᴀᴢᴜ](t.me/kazuinhere) \n"
         f"⌬ 🖥️ ▫ `sʏsᴛᴇᴍ    :`Ubuntu 20.10 \n"
         f"⌬ ⚙️ ▫ `ᴛᴇʟᴇᴛʜᴏɴ   :`v.{version.__version__} \n"
         f"⌬ 🐍 ▫ `ᴘʏᴛʜᴏɴ    :`v.{python_version()} \n"
@@ -288,7 +288,7 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@ Xa_cmd(pattern="(?:alive|on)\\s?(.)?")
+@ Kzu_cmd(pattern="(?:alive|on)\\s?(.)?")
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -298,11 +298,11 @@ async def redis(alive):
     await alive.edit("__𝘗𝘭𝘦𝘢𝘴𝘦 𝘞𝘢𝘪𝘵..__")
     await alive.edit("__𝘗𝘭𝘦𝘢𝘴𝘦 𝘞𝘢𝘪𝘵...__")
     await alive.edit("__𝘗𝘭𝘦𝘢𝘴𝘦 𝘞𝘢𝘪𝘵..__")
-    await alive.edit("__𝘗𝘭𝘦𝘢𝘴𝘦 𝘞𝘢𝘪𝘵...__")
+    await alive.edit("👉👈")
     await alive.edit("⚡")
     await asyncio.sleep(3)
     output = (
-        f"┏━━━━━━━🦖xᴀ-ᴜsᴇʀʙᴏᴛ🦖━━━ \n"
+        f"┏━━━━━━━🐣ᴋzu-ᴜsᴇʀʙᴏᴛ🐣━━━ \n"
         f"┣  `Name     :` {DEFAULTUSER} \n"
         f"┣  `Username :` @{user.username} \n"
         f"┣  `Telethon :` Ver {version.__version__} \n"
@@ -310,9 +310,9 @@ async def redis(alive):
         f"┣  `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
         f"┣  `Bot Ver  :` {BOT_VER} \n"
         f"┣  `Modules  :` {len(modules)} Modules \n"
-        f"┣  `GitHub   :` [xᴀ-ᴜsᴇʀʙᴏᴛ](https://github.com/Rexashh/Xa-Userbot) \n"
-        f"┣  `Support  :` [ɢʀᴏᴜᴘ](https://t.me/rexaprivateroom) \n"
-        f"┣  `Owner    :` [ʀᴇxᴧ-ᴇx](https://t.me/JustRex) \n"
+        f"┣  `GitHub   :` [ᴋzu-ᴜsᴇʀʙᴏᴛ](https://github.com/zokazu/Kzu-Ubot) \n"
+        f"┣  `Support  :` [ɢʀᴏᴜᴘ](https://t.me/kazusupport) \n"
+        f"┣  `Owner    :` [ᴋᴧᴢᴜ](https://t.me/kazuinhere) \n"
         f"┗━━━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
