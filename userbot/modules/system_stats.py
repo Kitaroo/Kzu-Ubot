@@ -175,7 +175,7 @@ async def bot_ver(event):
         )
 
 
-@Kzu_cmd(pattern="pip(?: |$)(.*)")
+@Xa_cmd(pattern="pip(?: |$)(.*)")
 async def pipcheck(pip):
     if pip.text[0].isalpha() or pip.text[0] in ("/", "#", "@", "!"):
         return
@@ -223,7 +223,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@Kzu_cmd(pattern="(?:xaalive)\\s?(.)?")
+@Xa_cmd(pattern="(?:xaalive)\\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -257,7 +257,7 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@Kzu_cmd(pattern="(?:xaon)\\s?(.)?")
+@Xa_cmd(pattern="(?:xaon)\\s?(.)?")
 async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -295,9 +295,9 @@ async def redis(alive):
     await alive.edit("__𝘗𝘭𝘦𝘢𝘴𝘦 𝘞𝘢𝘪𝘵.__")
     await alive.edit("__𝘗𝘭𝘦𝘢𝘴𝘦 𝘞𝘢𝘪𝘵..__")
     await alive.edit("__𝘗𝘭𝘦𝘢𝘴𝘦 𝘞𝘢𝘪𝘵.__")
-    await alive.edit("__𝘗𝘭𝘦𝘢𝘴𝘦 𝘞𝘢𝘪𝘵..__")
-    await alive.edit("__𝘗𝘭𝘦𝘢𝘴𝘦 𝘞𝘢𝘪𝘵...__")
-    await alive.edit("__𝘗𝘭𝘦𝘢𝘴𝘦 𝘞𝘢𝘪𝘵..__")
+    await alive.edit("__😁__")
+    await alive.edit("__🤤🤤__")
+    await alive.edit("__😎😎😎__")
     await alive.edit("👉👈")
     await alive.edit("⚡")
     await asyncio.sleep(3)
