@@ -288,7 +288,7 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@ Kzu_cmd(pattern="(?:alive|on)\\s?(.)?")
+@ Xa_cmd(pattern="(?:alive|on)\\s?(.)?")
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
